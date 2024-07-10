@@ -36,6 +36,8 @@ public class peliculas {
                     .withParameters(Map.of("movie", movie))
                     .execute();
             });
+
+	//Ingreso una pelicula The hobbit
             try {
                 // Insertar la película
                 driver.executableQuery("CREATE (m:Movie {title: $movie.title, writer: $movie.writer, year: $movie.year, actors: $movie.actors, franchise: $movie.franchise, synopsis: $movie.synopsis})")
