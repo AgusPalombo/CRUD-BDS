@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Redis</groupId>
+  <artifactId>Redis</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>RedisFinal</name>
+  <description>REDIS CRUD</description>
+  
+  <dependencies>
+	 	<dependency>
+	     	<groupId>redis.clients</groupId>
+	     	<artifactId>jedis</artifactId>
+	     	<version>3.7.0</version>
+ 		</dependency> 
+ 		
+ 		<dependency>
+    		<groupId>org.apache.logging.log4j</groupId>
+    		<artifactId>log4j-slf4j-impl</artifactId>
+    		<version>2.14.1</version> <!-- O utiliza la versión más reciente disponible -->
+		</dependency>
+ </dependencies>
+   
+</project>
